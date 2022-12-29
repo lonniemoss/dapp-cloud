@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import Web3 from 'web3';
-
+import './App.css';
+import DropFileInput from './components/drop-file-input/DropFileInput';
 
 function App() {
   
@@ -40,13 +41,13 @@ function App() {
   const onDisconnect = () => {
     setIsConnected(false);
   }
-    const [selectedStorage, setSelectedStorage] = useState('');
-  
-    const handleChange = (event) => {
-      setSelectedStorage(event.target.value);
-    }
-  
-  
+
+  const [files, setFiles] = useState([]);
+
+  const onFileChange = (newFiles) => {
+    setFiles(newFiles);
+  }
+  <DropFileInput onFileChange={(files) => onFileChange(files)} />
   return (
     <div className="app">
       <div className="app-header">
@@ -74,52 +75,43 @@ function App() {
             <button className="app-buttons__logout" onClick={onDisconnect}>
             Disconnect
             </button>
+            <br></br>
+            <br></br>
           </div>
           <div>  
           <div>
-          <label htmlFor="storage-dropdown">Select storage:</label>
-            <select id="storage-dropdown" value={selectedStorage} onChange={handleChange}>
-              <option value="250gb">250 GB</option>
-              <option value="500gb">500 GB</option>
-              <option value="1t">1 TB</option>
-              <option value="2t">2 TB</option>
-            </select>
-            {selectedStorage && (
-              <div>
-                You selected {selectedStorage}.
-                <button>Select</button>
-              </div>
-            )}            
-              <style>
+            <div className="box">
+                <h2 className="header">
+                    React drop files input
+                </h2>
+                <DropFileInput
+                    onFileChange={(files) => onFileChange(files)}
+                />
+            </div>
+            <br></br>
+            <button className="" onSubmit={onFileChange}>Submit</button>
+            <style>
                 {`
-                  #storage-dropdown {
-                    font-size: 18px;
-                    padding: 8px 12px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                  }
-                  
                   button {
-                    font-size: 18px;
-                    padding: 8px 12px;
-                    border: 1px solid #ccc;
-                    border-radius: 4px;
-                    background-color: lightgreen;
+                    background-color: #4CAF50;
+                    border: none;
                     color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
                     cursor: pointer;
                   }
-                  
-                  button:hover {
-                    background-color: green;
-                  }
                 `}
-              </style>
+            </style>
             </div>
           </div> 
         </div>
       )}
     </div>
-  );
+  );               
 }
 
 export default App;
