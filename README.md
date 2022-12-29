@@ -1,6 +1,13 @@
 <<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## USAGE
+
+Users can safely store their file and login via 'Metamask'. 
+
+
+MetaMask is a special tool that helps people use and keep track of things called "cryptocurrencies." Cryptocurrencies are like digital money that can be used to buy and sell things online. MetaMask helps people store their cryptocurrencies safely and also lets them use them to do special things on the internet, like visit special websites and play special games. MetaMask works with a special kind of computer called a "blockchain," which is like a really big, really smart computer that helps keep track of all the cryptocurrencies and make sure everything is safe and fair.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -38,35 +45,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ### current result 
 
