@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## USAGE
 
-Users can safely store their file and login via 'Metamask'. 
+Users can safely store their file and login with 'Metamask'. 
 
 
 MetaMask is a special tool that helps people use and keep track of things called "cryptocurrencies." Cryptocurrencies are like digital money that can be used to buy and sell things online. MetaMask helps people store their cryptocurrencies safely and also lets them use them to do special things on the internet, like visit special websites and play special games. MetaMask works with a special kind of computer called a "blockchain," which is like a really big, really smart computer that helps keep track of all the cryptocurrencies and make sure everything is safe and fair.
