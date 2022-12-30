@@ -47,7 +47,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 
-### current result 
+### current visual state 
 
 <img width="1439" alt="Screen Shot 2022-12-28 at 2 28 42 PM" src="https://user-images.githubusercontent.com/101422810/209862962-eee801d4-c2e0-48ac-9005-0277eebc4b92.png">
 
