@@ -49,8 +49,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### current visual state 
 
-<img width="1439" alt="Screen Shot 2022-12-28 at 2 28 42 PM" src="https://user-images.githubusercontent.com/101422810/209862962-eee801d4-c2e0-48ac-9005-0277eebc4b92.png">
+<img width="1440" alt="Screen Shot 2023-01-01 at 1 34 40 PM" src="https://user-images.githubusercontent.com/101422810/210181335-aa272385-932a-49c3-8aad-cffe34ed3b7d.png">
 
-<img width="1434" alt="Screen Shot 2022-12-29 at 11 28 14 AM" src="https://user-images.githubusercontent.com/101422810/209982032-d4440da4-ce16-46e2-a293-3db5e6d97a2f.png">
+
+<img width="1440" alt="Screen Shot 2023-01-01 at 1 34 52 PM" src="https://user-images.githubusercontent.com/101422810/210181347-095ca600-3096-4d89-b425-eccc59be5ec5.png">
 
 
